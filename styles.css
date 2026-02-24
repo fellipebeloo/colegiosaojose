@@ -1,0 +1,19 @@
+body {
+    background-color: #F4F3ED;
+    /* Cor de base creme */
+    /* Imagem de fundo padrão e uma nova textura floral com blend mode ou overlay */
+    background-image: linear-gradient(to bottom, rgba(244, 243, 237, 0.85), rgba(244, 243, 237, 0.9)), url("fundo-floral.jpg");
+    background-size: cover, 400px;
+    background-repeat: no-repeat, repeat;
+    background-position: center, center;
+    background-attachment: fixed;
+}
+
+.hero-section {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

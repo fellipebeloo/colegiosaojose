@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colégio São José | Formação para Mulheres</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-green': '#435B3B', /* Verde Oliva Escuro */
+                        'brand-bg': '#F4F3ED',    /* Off-white Cream */
+                    },
+                    fontFamily: {
+                        'serif': ['"Playfair Display"', 'Georgia', 'serif'],
+                        'sans': ['"Inter"', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="text-brand-green font-sans antialiased min-h-screen">
+
+    <main class="hero-section px-6 py-20 lg:py-32">
+        <!-- Elementos Decorativos Florais Autênticos removidos, fundo gerencia a textura agora -->
+
+        <!-- Conteúdo Central -->
+        <div class="relative z-10 max-w-4xl mx-auto text-center flex flex-col items-center justify-center">
+
+            <!-- Logo e Overline -->
+            <div class="flex flex-col items-center justify-center mb-6 md:mb-8 space-y-4">
+                <!-- Placeholder para a logo do Colégio -->
+                <img src="logo-colegio.png" alt="Colégio São José" class="h-28 md:h-36 w-auto object-contain opacity-90"
+                    onerror="this.style.display='none'">
+                <p class="uppercase tracking-[0.25em] text-xs md:text-sm font-medium text-brand-green/80">
+                    apresenta:
+                </p>
+            </div>
+
+            <!-- Titulo Principal -->
+            <h1
+                class="font-serif text-4xl md:text-6xl lg:text-[4.5rem] leading-tight md:leading-[1.1] font-semibold text-brand-green mx-auto max-w-3xl mb-8 md:mb-10">
+                O alicerce de um lar católico começa no coração da mulher.
+            </h1>
+
+            <!-- Subtítulo -->
+            <p
+                class="text-base md:text-lg lg:text-xl text-brand-green/80 max-w-xl mx-auto font-light leading-relaxed mb-12">
+                Um dia de formação profunda sobre Matrimônio, Educação das Crianças e Oração com a Dra. Renata Gusson.
+            </p>
+
+            <!-- CTA Button com contorno elegante -->
+            <div>
+                <a href="https://chat.whatsapp.com/Jw1cBAJ9dDvG5YeMhmU4gh" target="_blank"
+                    class="group relative inline-flex items-center justify-center px-10 py-5 text-sm md:text-base font-serif tracking-widest uppercase text-brand-bg bg-brand-green overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                    <span
+                        class="absolute inset-0 w-full h-full border border-brand-bg/30 m-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+                    <span class="relative z-10">Entrar no grupo do WhatsApp</span>
+                </a>
+            </div>
+
+            <!-- Decorative small dot instead of line -->
+            <div class="mt-20 flex space-x-2 opacity-40">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-green"></span>
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-green"></span>
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-green"></span>
+            </div>
+        </div>
+    </main>
+
+    <!-- Seção 2: Sobre a Palestrante e o Evento -->
+    <section id="sobre" class="py-24 lg:py-32 px-6 bg-brand-bg relative z-10">
+        <!-- Divisor decorativo do topo -->
+        <div class="flex justify-center mb-20 opacity-30">
+            <svg width="120" height="20" viewBox="0 0 120 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 10H45M75 10H120M60 0L65 10L60 20L55 10L60 0Z" fill="#435B3B" stroke="#435B3B" />
+            </svg>
+        </div>
+
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col lg:flex-row items-center lg:items-start lg:justify-between gap-16 lg:gap-24">
+
+                <!-- Coluna Esquerda: A Palestrante -->
+                <div class="w-full lg:w-5/12 flex flex-col items-center lg:items-start text-center lg:text-left">
+                    <!-- Placeholder da Imagem com moldura clássica -->
+                    <div class="relative mb-8 group">
+                        <!-- Moldura -->
+                        <div
+                            class="absolute inset-0 border-2 border-brand-green/30 rounded-t-full rounded-b-3xl transform translate-x-3 translate-y-3 transition-transform group-hover:translate-x-2 group-hover:translate-y-2">
+                        </div>
+                        <!-- Imagem -->
+                        <div
+                            class="relative w-64 h-80 md:w-80 md:h-[400px] overflow-hidden rounded-t-full rounded-b-3xl bg-[#EBE9DE] flex items-center justify-center border border-brand-green/10">
+                            <!-- NOTE: O usuário deverá substituir o src desta imagem pela foto recortada -->
+                            <img src="foto-renata-gusson.png" alt="Dra. Renata Gusson"
+                                class="w-full h-full object-cover opacity-80"
+                                onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%23435B3B\' opacity=\'0.2\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'">
+                        </div>
+                    </div>
+
+                    <h2 class="font-serif text-3xl md:text-4xl text-brand-green font-semibold mb-4">
+                        Dra. Renata Gusson
+                    </h2>
+
+                    <p class="text-brand-green/75 font-serif text-lg leading-relaxed max-w-md">
+                        Esposa do Prof. Felipe Nery e mãe de quatro filhos, a Dra. Renata Gusson vive na prática os
+                        desafios e as belezas da vocação feminina. Ela traz o testemunho de uma vida dedicada à educação
+                        familiar, oferecendo um porto seguro para mães que desejam edificar seus lares na verdadeira fé.
+                    </p>
+                </div>
+
+                <!-- Divisor Vertical Visível Apenas no Desktop -->
+                <div class="hidden lg:block w-px bg-brand-green/20 self-stretch opacity-60"></div>
+
+                <!-- Divisor Horizontal Visível Apenas no Mobile -->
+                <div class="block lg:hidden w-32 h-px bg-brand-green/20 mx-auto"></div>
+
+                <!-- Coluna Direita: O que abordaremos -->
+                <div class="w-full lg:w-6/12 flex flex-col pt-4 lg:pt-10">
+                    <h2 class="font-serif text-3xl text-brand-green font-semibold mb-12 text-center lg:text-left">
+                        O que abordaremos neste encontro:
+                    </h2>
+
+                    <div class="space-y-12">
+                        <!-- Pilar 1: Matrimônio -->
+                        <div
+                            class="flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-6 group">
+                            <div
+                                class="flex-shrink-0 w-16 h-16 rounded-full border border-brand-green/30 flex items-center justify-center bg-brand-bg group-hover:bg-brand-green/5 transition-colors">
+                                <!-- Ícone Alianças -->
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#435B3B"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="8" cy="12" r="6"></circle>
+                                    <circle cx="16" cy="12" r="6"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-serif text-2xl text-brand-green font-medium mb-3">Matrimônio</h3>
+                                <p class="text-brand-green/80 text-base leading-relaxed font-light">
+                                    O fortalecimento do vínculo conjugal como a base inabalável da família.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Pilar 2: Educação -->
+                        <div
+                            class="flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-6 group">
+                            <div
+                                class="flex-shrink-0 w-16 h-16 rounded-full border border-brand-green/30 flex items-center justify-center bg-brand-bg group-hover:bg-brand-green/5 transition-colors">
+                                <!-- Ícone Livro/Formação -->
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#435B3B"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-serif text-2xl text-brand-green font-medium mb-3">Educação das Crianças
+                                </h3>
+                                <p class="text-brand-green/80 text-base leading-relaxed font-light">
+                                    O papel insubstituível da mãe na formação do imaginário e das virtudes.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Pilar 3: Oração -->
+                        <div
+                            class="flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-6 group">
+                            <div
+                                class="flex-shrink-0 w-16 h-16 rounded-full border border-brand-green/30 flex items-center justify-center bg-brand-bg group-hover:bg-brand-green/5 transition-colors">
+                                <!-- Ícone Oração/Cruz -->
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#435B3B"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 3v18M7 8h10M12 3a4 4 0 0 0-4 4M12 3a4 4 0 0 1 4 4"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-serif text-2xl text-brand-green font-medium mb-3">Oração</h3>
+                                <p class="text-brand-green/80 text-base leading-relaxed font-light">
+                                    Como cultivar uma vida interior profunda e silenciosa em meio à rotina do lar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 3: Informações e Inscrição (O Convite) -->
+    <section id="lista-de-espera" class="py-20 lg:py-32 px-4 md:px-6 relative z-10 flex justify-center">
+        <!-- O Card de Convite Formal -->
+        <div
+            class="relative w-full max-w-5xl bg-[#FCFBF8] rounded-sm shadow-2xl shadow-brand-green/5 border border-brand-green/15 overflow-hidden">
+
+            <!-- Vinhetas Clássicas nas 4 Quinas -->
+            <div
+                class="absolute top-0 left-0 w-24 h-24 bg-[url('floral-engraving.png')] bg-contain bg-no-repeat opacity-20 pointer-events-none transform -scale-x-100">
+            </div>
+            <div
+                class="absolute top-0 right-0 w-24 h-24 bg-[url('floral-engraving.png')] bg-contain bg-no-repeat opacity-20 pointer-events-none">
+            </div>
+            <div
+                class="absolute bottom-0 left-0 w-24 h-24 bg-[url('floral-engraving.png')] bg-contain bg-no-repeat opacity-20 pointer-events-none transform -scale-y-100 -scale-x-100">
+            </div>
+            <div
+                class="absolute bottom-0 right-0 w-24 h-24 bg-[url('floral-engraving.png')] bg-contain bg-no-repeat opacity-20 pointer-events-none transform -scale-y-100">
+            </div>
+
+            <div class="relative z-10 p-10 md:p-16 lg:p-20 flex flex-col lg:flex-row gap-16 lg:gap-20">
+
+                <!-- Lado Esquerdo: Detalhes Práticos -->
+                <div class="w-full lg:w-5/12 flex flex-col items-center text-center justify-center">
+                    <h3 class="font-serif italic text-2xl md:text-3xl text-brand-green mb-8">
+                        Reserve esta data
+                    </h3>
+
+                    <div class="mb-8 flex flex-col items-center">
+                        <div class="flex items-baseline justify-center gap-3">
+                            <span
+                                class="font-serif text-7xl md:text-8xl text-brand-green font-semibold leading-none">28</span>
+                            <div class="flex flex-col items-start text-left">
+                                <span
+                                    class="font-sans uppercase tracking-[0.2em] text-brand-green text-sm md:text-base font-medium">de
+                                    Março</span>
+                                <span
+                                    class="font-serif italic text-brand-green/80 text-xl md:text-2xl mt-1">Sábado</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-12">
+                        <span
+                            class="font-sans uppercase tracking-[0.15em] text-brand-green/70 text-xs mb-2 block">Horário</span>
+                        <p class="font-serif text-2xl text-brand-green">Das <span class="font-semibold">09h</span> às
+                            <span class="font-semibold">17h</span>
+                        </p>
+                    </div>
+
+                    <!-- Divisor e Organização -->
+                    <div class="w-full max-w-[150px] flex flex-col items-center mt-auto">
+                        <div class="w-full h-px bg-brand-green/20 mb-6"></div>
+                        <span
+                            class="font-sans uppercase tracking-[0.15em] text-brand-green/60 text-[10px] md:text-xs mb-4">Organização:</span>
+                        <!-- Logo do Colégio substituindo a flor de lis genérica -->
+                        <img src="logo-colegio.png" alt="Colégio São José"
+                            class="h-16 md:h-16 w-auto object-contain opacity-90" onerror="this.style.display='none'">
+                        <!-- Mantido o texto como complemento, dependendo da logo ele pode ser ocultado -->
+                    </div>
+                </div>
+
+                <!-- Divisor Vertical / Horizontal -->
+                <div class="hidden lg:block w-px bg-brand-green/15 self-stretch"></div>
+                <div class="block lg:hidden w-full h-px bg-brand-green/15 mx-auto"></div>
+
+                <!-- Lado Direito: Chamada para o WhatsApp -->
+                <div class="w-full lg:w-7/12 flex flex-col justify-center">
+                    <h3
+                        class="font-serif text-3xl md:text-4xl text-brand-green font-semibold mb-4 text-center lg:text-left">
+                        Faça parte do grupo VIP
+                    </h3>
+                    <p
+                        class="text-brand-green/80 text-base leading-relaxed font-light mb-10 text-center lg:text-left max-w-lg mx-auto lg:mx-0">
+                        Entre em nosso grupo do WhatsApp para receber todas as informações do evento e ser avisada assim
+                        que as
+                        vagas forem abertas.
+                    </p>
+
+                    <div class="pt-2 max-w-lg mx-auto lg:mx-0 w-full">
+                        <a href="https://chat.whatsapp.com/Jw1cBAJ9dDvG5YeMhmU4gh" target="_blank"
+                            class="block text-center w-full bg-brand-green text-brand-bg font-serif tracking-[0.15em] uppercase text-sm px-8 py-5 rounded-sm hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 border border-transparent hover:border-brand-green/80 hover:bg-[#384c31]">
+                            Entrar no grupo do WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
