@@ -222,7 +222,7 @@
                 class="absolute bottom-0 right-0 w-24 h-24 bg-[url('floral-engraving.png')] bg-contain bg-no-repeat opacity-20 pointer-events-none transform -scale-y-100">
             </div>
 
-            <div class="relative z-10 p-10 md:p-16 lg:p-20 flex flex-col lg:flex-row gap-16 lg:gap-20">
+            <div class="relative z-10 p-8 md:p-12 lg:p-16 flex flex-col lg:flex-row gap-12 lg:gap-16">
 
                 <!-- Lado Esquerdo: Detalhes Práticos -->
                 <div class="w-full lg:w-5/12 flex flex-col items-center text-center justify-center">
@@ -244,12 +244,29 @@
                         </div>
                     </div>
 
-                    <div class="mb-12">
+                    <div class="mb-8">
                         <span
-                            class="font-sans uppercase tracking-[0.15em] text-brand-green/70 text-xs mb-2 block">Horário</span>
-                        <p class="font-serif text-2xl text-brand-green">Das <span class="font-semibold">09h</span> às
+                            class="font-sans uppercase tracking-[0.15em] text-brand-green/70 text-xs mb-1 block">Horário</span>
+                        <p class="font-serif text-xl text-brand-green">Das <span class="font-semibold">08h30</span> às
                             <span class="font-semibold">17h</span>
                         </p>
+                    </div>
+
+                    <div class="mb-8">
+                        <span
+                            class="font-sans uppercase tracking-[0.15em] text-brand-green/70 text-xs mb-1 block">Local</span>
+                        <p class="font-serif text-xl text-brand-green font-semibold">UNIPTAN</p>
+                    </div>
+
+                    <div class="mb-10 w-full max-w-[260px]">
+                        <div
+                            class="bg-brand-green/5 border border-brand-green/10 rounded-sm px-4 py-3 flex items-center justify-center gap-3">
+                            <span class="text-brand-green opacity-70 text-xl">☕</span>
+                            <p
+                                class="font-sans text-brand-green/80 text-[13px] md:text-sm font-light text-left leading-tight">
+                                Terá coffee break pela manhã e tarde.
+                            </p>
+                        </div>
                     </div>
 
                     <!-- Divisor e Organização -->
@@ -260,7 +277,6 @@
                         <!-- Logo do Colégio substituindo a flor de lis genérica -->
                         <img src="logo-colegio.png" alt="Colégio São José"
                             class="h-16 md:h-16 w-auto object-contain opacity-90" onerror="this.style.display='none'">
-                        <!-- Mantido o texto como complemento, dependendo da logo ele pode ser ocultado -->
                     </div>
                 </div>
 
@@ -270,18 +286,58 @@
 
                 <!-- Lado Direito: Chamada para o WhatsApp -->
                 <div class="w-full lg:w-7/12 flex flex-col justify-center">
+
+                    <div class="mb-10 text-center lg:text-left">
+                        <h3 class="font-serif text-2xl md:text-3xl text-brand-green font-semibold mb-6">
+                            Investimento
+                        </h3>
+                        <div class="flex flex-col gap-4 max-w-lg mx-auto lg:mx-0">
+                            <!-- Lote 1 -->
+                            <div
+                                class="bg-brand-green/5 border border-brand-green/20 p-5 rounded-md relative overflow-hidden group hover:bg-brand-green/10 transition-colors">
+                                <div
+                                    class="absolute -right-6 -top-6 w-16 h-16 bg-brand-green/10 rounded-full blur-xl group-hover:bg-brand-green/20 transition-colors">
+                                </div>
+                                <div class="relative z-10">
+                                    <div class="flex justify-between items-start mb-1">
+                                        <span class="font-serif text-lg text-brand-green font-semibold">1º Lote</span>
+                                        <span class="font-sans font-semibold text-brand-green md:text-xl">R$
+                                            95,00</span>
+                                    </div>
+                                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mt-2">
+                                        <p class="text-sm text-brand-green/70 font-light">Até dia 10/03</p>
+                                        <div
+                                            class="inline-block px-3 py-1.5 bg-[#435B3B] text-[#F4F3ED] text-[10px] md:text-xs uppercase tracking-wider rounded-sm font-medium shadow-sm">
+                                            🎁 Ganha brinde do evento
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Lote 2 -->
+                            <div
+                                class="border border-brand-green/15 p-5 rounded-md border-dashed opacity-80 hover:opacity-100 transition-opacity">
+                                <div class="flex justify-between items-start mb-1">
+                                    <span class="font-serif text-lg text-brand-green/80 font-medium">2º Lote</span>
+                                    <span class="font-sans font-medium text-brand-green/80 md:text-lg">R$ 115,00</span>
+                                </div>
+                                <p class="text-sm text-brand-green/60 font-light mt-1">Até dia 20/03</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-16 h-px bg-brand-green/20 mx-auto lg:mx-0 mb-8 text-center lg:text-left"></div>
+
                     <h3
-                        class="font-serif text-3xl md:text-4xl text-brand-green font-semibold mb-4 text-center lg:text-left">
+                        class="font-serif text-2xl md:text-3xl text-brand-green font-semibold mb-4 text-center lg:text-left">
                         Faça parte do grupo VIP
                     </h3>
                     <p
-                        class="text-brand-green/80 text-base leading-relaxed font-light mb-10 text-center lg:text-left max-w-lg mx-auto lg:mx-0">
+                        class="text-brand-green/80 text-[15px] leading-relaxed font-light mb-8 text-center lg:text-left max-w-lg mx-auto lg:mx-0">
                         Entre em nosso grupo do WhatsApp para receber todas as informações do evento e ser avisada assim
-                        que as
-                        vagas forem abertas.
+                        que as vagas forem abertas.
                     </p>
 
-                    <div class="pt-2 max-w-lg mx-auto lg:mx-0 w-full">
+                    <div class="max-w-lg mx-auto lg:mx-0 w-full">
                         <a href="https://chat.whatsapp.com/Jw1cBAJ9dDvG5YeMhmU4gh" target="_blank"
                             class="block text-center w-full bg-brand-green text-brand-bg font-serif tracking-[0.15em] uppercase text-sm px-8 py-5 rounded-sm hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 border border-transparent hover:border-brand-green/80 hover:bg-[#384c31]">
                             Entrar no grupo do WhatsApp
